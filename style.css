@@ -1,0 +1,40 @@
+body{
+    background-color: #ae79b0;
+
+}
+
+h1 {
+    padding: 10px;
+}
+
+.container {
+    background-color: aquamarine;
+    max-width: 900px;
+    height: 00px;
+    margin: 60px auto;
+    border-radius: 10px;
+}
+
+h2{
+    padding: 10px;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 4px;
+}
+
+.bangtan{
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 20px 0;
+    border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
+   
+}
+
+.bangtan:last-child {
+    border: none;
+}
