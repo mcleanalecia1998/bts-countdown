@@ -47,9 +47,10 @@ h2 {
 }
 
 img {
-  width: 80%;
+  width: 60%;
   display: block;
   margin: 0 auto;
+  border: 2px solid white;
   border-radius: 30px;
   margin-top: 10px;
 }
@@ -100,8 +101,8 @@ iframe {
   display: block;
   margin: 0 auto;
   margin-top: 20px;
-  height: 152px;
-  width: 90%;
+  height: 352px;
+  width: 100%;
 }
 
 strong {
