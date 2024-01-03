@@ -30,7 +30,7 @@ h2 {
 
 .timer {
   color: beige;
-  font-size: 58px;
+  font-size: 60px;
   text-align: center;
   font-weight: 100px;
   border: 2px solid white;
@@ -46,7 +46,7 @@ h2 {
 }
 
 img {
-  width: 80%;
+  width: 60%;
   display: block;
   margin: 0 auto;
   margin-top: 10px;
@@ -59,10 +59,16 @@ img {
 
 .card-title {
   font-size: 20px;
+  text-align: center;
 }
 
 .card-img-top {
-  width: 90px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.card-img-top-a {
+  width: 150px;
 }
 
 .bangtan {
@@ -108,6 +114,24 @@ a {
   border: 1px solid #f5c968;
 }
 
+#face {
+  background-color: #9e9a9a;
+}
+
 .btn {
   color: white;
+  background-color: #83c1ee;
+  display: block;
+  margin: 0 auto;
+}
+
+btn:hover {
+  color: #e5aad2;
+  background-color: white;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
 }

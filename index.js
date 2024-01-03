@@ -10,8 +10,9 @@ function jinComesHome() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("jin-timer").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById(
+    "jin-timer"
+  ).innerHTML = `${days} days ${hours} hr ${minutes} mins ${seconds} s`;
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("jin-timer").innerHTML = `Jin is back`;
@@ -28,8 +29,9 @@ function hobiComesHome() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("hobi-timer").innerHTML =
-    days + "D " + hours + "H " + minutes + "M " + seconds + "S ";
+  document.getElementById(
+    "hobi-timer"
+  ).innerHTML = `${days} days ${hours} hr ${minutes} mins ${seconds} s`;
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("hobi-timer").innerHTML = `Hobi is Home!!`;
@@ -46,8 +48,9 @@ function namTaeComesHome() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("namtae-timer").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById(
+    "namtae-timer"
+  ).innerHTML = `${days} days ${hours} hr ${minutes} mins ${seconds} s`;
   if (distance < 0) {
     clearInterval(x);
     document.getElementById(
@@ -66,8 +69,9 @@ function jikookComesHome() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("jikook-timer").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById(
+    "jikook-timer"
+  ).innerHTML = `${days} days ${hours} hr ${minutes} mins ${seconds} s`;
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("jikook-timer").innerHTML = `Hobi is back`;
@@ -84,8 +88,9 @@ function sugaComesHome() {
   let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  document.getElementById("suga-timer").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  document.getElementById(
+    "suga-timer"
+  ).innerHTML = `${days} days ${hours} hr ${minutes} mins ${seconds} s`;
   if (distance < 0) {
     clearInterval(x);
     document.getElementById("suga-timer").innerHTML = `Hobi is back`;
