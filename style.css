@@ -50,6 +50,7 @@ img {
   width: 60%;
   display: block;
   margin: 0 auto;
+  margin-top: 10px;
   border: 2px solid white;
   border-radius: 30px;
 }
