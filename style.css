@@ -1,40 +1,113 @@
-body{
-    background-color: #ae79b0;
+:root {
+  --moni-color: #3d80ab;
+  --jin-color: #e5aad2;
+  --yoongi-color: #192020;
+  --hobi-color: #6e615f;
+  --mini-color: #857b55;
+  --tae-color: #09751a;
+  --kook-color: #9f3cc8;
+}
 
+body {
+  background-color: #ae79b0;
 }
 
 h1 {
-    padding: 10px;
+  font-size: 48px;
+  padding: 10px;
+  text-align: center;
 }
 
-.container {
-    background-color: aquamarine;
-    max-width: 900px;
-    height: 00px;
-    margin: 60px auto;
-    border-radius: 10px;
+header {
+  font-size: 86px;
+  color: white;
+  text-align: center;
 }
 
-h2{
-    padding: 10px;
+h2 {
+  padding: 10px;
+}
+
+.timer {
+  color: beige;
+  font-size: 58px;
+  text-align: center;
+  font-weight: 100px;
+  border: 2px solid white;
+  border-radius: 4px;
+  background-color: var(--jin-color);
+}
+
+.date {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+  text-align: center;
 }
 
 img {
-    width: 30%;
-    display: block;
-    margin: 0 auto;
-    border-radius: 4px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 100px;
 }
 
-.bangtan{
-    display: flex;
-   
-    justify-content: space-between;
-    padding: 20px 0;
-    border-bottom: 1px dashed rgb(0, 0, 0, 0.2);
-   
+.card {
+  margin: 10px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.card-img-top {
+  width: 90px;
+}
+
+.bangtan {
+  display: flex;
+
+  justify-content: space-between;
+  padding: 20px 0;
 }
 
 .bangtan:last-child {
-    border: none;
+  border: none;
+}
+
+a {
+  text-align: center;
+}
+
+.navbar {
+  color: white;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+  text-decoration: underline;
+  background-color: #e5aad2;
+  cursor: pointer;
+  margin: 4px;
+  border-radius: 5px;
+  transition: 0ms;
+}
+
+#golden {
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  padding: 10px;
+  color: #f5c968;
+  background-color: #043d21;
+  border: 1px solid #f5c968;
+}
+
+.btn {
+  color: white;
 }
