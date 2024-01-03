@@ -16,6 +16,8 @@ header {
 }
 
 h2 {
+  color: white;
+  text-align: center;
   padding: 10px;
 }
 
@@ -92,4 +94,8 @@ iframe {
   margin-top: 20px;
   height: 152px;
   width: 90%;
+}
+
+strong {
+  color: #b847f6;
 }
