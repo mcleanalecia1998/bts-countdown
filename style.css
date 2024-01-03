@@ -38,12 +38,19 @@ h2 {
   text-align: center;
 }
 
-img {
-  width: 90%;
+.main {
+  width: 80%;
   display: block;
   margin: 0 auto;
   margin-top: 10px;
   border-radius: 50px;
+}
+
+img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 30px;
 }
 
 a {
@@ -98,4 +105,10 @@ iframe {
 
 strong {
   color: #b847f6;
+}
+
+footer {
+  opacity: 0.25;
+  text-align: center;
+  padding: 10px;
 }
