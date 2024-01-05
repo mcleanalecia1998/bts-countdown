@@ -28,7 +28,7 @@ h2 {
   font-weight: 100px;
   border: 3px solid white;
   border-radius: 6px;
-  background-color: goldenrod;
+  background-color: blueviolet;
 }
 
 .date {
@@ -112,5 +112,6 @@ strong {
 footer {
   opacity: 0.25;
   text-align: center;
+  margin-top: 40px;
   padding: 10px;
 }
