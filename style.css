@@ -4,7 +4,7 @@ body {
 
 h1 {
   color: #b847f6;
-  font-size: 48px;
+  font-size: 60px;
   padding: 10px;
   text-align: center;
 }
@@ -63,7 +63,7 @@ a {
 .navbar {
   color: white;
   background-color: #dcab4e;
-  margin-top: 4px;
+  margin-top: 10px;
   border-radius: 4px;
 }
 
@@ -113,11 +113,12 @@ footer {
   padding: 10px;
 }
 .icon {
-  width: 50px;
+  width: 40px;
   border: none;
 }
 
 .home {
-  width: 50px;
+  width: 40px;
+  margin-left: 20px;
   border: none;
 }
