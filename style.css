@@ -29,6 +29,7 @@ h2 {
   border: 3px solid white;
   border-radius: 6px;
   background-color: blueviolet;
+  transition: 0ms ease-out;
 }
 
 .date {
@@ -59,10 +60,6 @@ a {
   text-align: center;
 }
 
-.navbar-brand {
-  color: #ffffff;
-}
-
 .navbar {
   color: white;
   background-color: #dcab4e;
@@ -72,11 +69,11 @@ a {
 
 .nav-link {
   color: white;
+  margin-right: 30px;
 }
 
 .nav-link:hover {
   color: white;
-  text-decoration: underline;
   background-color: #b640f5;
   cursor: pointer;
   margin: 4px;
@@ -114,4 +111,13 @@ footer {
   text-align: center;
   margin-top: 40px;
   padding: 10px;
+}
+.icon {
+  width: 50px;
+  border: none;
+}
+
+.home {
+  width: 50px;
+  border: none;
 }

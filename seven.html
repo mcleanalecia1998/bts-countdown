@@ -12,6 +12,36 @@
             --secondary-color: #f4f2ef;
         }
 
+        @media (max-width: 600px) {
+            body {
+                background-color: white;
+            }
+
+            img {
+                width: 120%;
+            }
+
+            .timer {
+                color: black;
+                font-size: 25px;
+                text-align: center;
+                margin-left: 10px;
+                font-weight: 100px;
+                border: 3px solid white;
+                border-radius: 6px;
+                background-color: var(--secondary-color);
+            }
+
+            img {
+                width: 110%;
+                display: block;
+                margin: 0 auto;
+                margin-top: 10px;
+                border: 2px solid white;
+                border-radius: 30px;
+            }
+        }
+
         body {
 
             background-color: #d8dfe4;
@@ -38,8 +68,20 @@
 
         .timer {
             color: black;
-            font-size: 18px;
+            font-size: 20px;
             text-align: center;
+            margin: 40px;
+            font-weight: 100px;
+            border: 3px solid white;
+            border-radius: 6px;
+            background-color: var(--secondary-color);
+        }
+
+        .timer-top {
+            color: black;
+            font-size: 20px;
+            text-align: center;
+            margin: 20px;
             font-weight: 100px;
             border: 3px solid white;
             border-radius: 6px;
@@ -56,16 +98,10 @@
             text-align: center;
         }
 
-        .date-top {
-            color: white;
-            font-size: 20px;
-            margin: 10px;
-            margin-top: 40px;
-            text-align: center;
-        }
+
 
         img {
-            width: 70%;
+            width: 110%;
             display: block;
             margin: 0 auto;
             margin-top: 10px;
@@ -142,9 +178,21 @@
             font-weight: 400px;
         }
 
+        .icon {
+            color: #b847f6;
+            width: 50px;
+            height: auto;
+            border: none;
+        }
+
         footer {
             text-align: center;
-            padding: 10px;
+            opacity: 0.25;
+            font-size: 20px;
+            border-top: 2px solid var(--primary-color);
+
+
+
         }
     </style>
     <title>Seven</title>
@@ -155,7 +203,8 @@
     <div class="container">
         <nav class="navbar navbar-expand-lg " id="#navbar">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">BTS💜ARMY (🏠)</a>
+                <a class="navbar-brand" href="index.html"> <img class="icon"
+                        src="https://img.icons8.com/color/48/bts-logo.png" alt="bts-logo" /></a>
 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -166,7 +215,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-
+                        <a class="nav-link" href="seven.html">All</a>
                         <a class="nav-link" href="namjoon.html"> Namjoon 🐨</a>
                         <a class="nav-link" href="jin.html"> Jin 🐹</a>
                         <a class="nav-link" href="yoongi.html"> Yoongi 🐱</a>
@@ -185,22 +234,22 @@
 
             </div>
             <div class="col-6 col-lg-2">
-                <div class="date-top"> June 12, 2024</div>
-                <div class="timer" id="jin-timer"></div>
+                <div class="date"> June 12, 2024</div>
+                <div class="timer-top" id="jin-timer"></div>
             </div>
             <div class="col-6 col-lg-2">
                 <img class="top" src="Images/hope.jpeg" alt="">
             </div>
             <div class="col-6 col-lg-2">
-                <div class="date-top"> October 17, 2024</div>
-                <div class="timer" id="hobi-timer"></div>
+                <div class="date"> October 17, 2024</div>
+                <div class="timer-top" id="hobi-timer"></div>
             </div>
             <div class="col-6 col-lg-2">
                 <img class="top" src="Images/suga4.jpeg" alt="">
             </div>
             <div class="col-6 col-lg-2">
-                <div class="date-top"> June 21, 2025</div>
-                <div class="timer" id="suga-timer"></div>
+                <div class="date"> June 21, 2025</div>
+                <div class="timer-top" id="suga-timer"></div>
             </div>
         </div>
         <hr>
@@ -211,7 +260,7 @@
 
             <div class="col-6 col-lg-4">
                 <div class="date"> June 10, 2025</div>
-                <div class="timer" id="namtae-timer"></div>
+                <div class="timer ml-5" id="namtae-timer"></div>
             </div>
             <div class="col-6 col-lg-4">
                 <img src="Images/tae.jpeg" alt="">
@@ -231,11 +280,9 @@
                 <img src="Images/jam.jpeg" alt="">
             </div>
         </div>
-        <hr>
-        <footer>
 
-            <br>
-            💜 Borahae 💜
+        <footer class="mt-10">
+            <img class="icon" src="https://img.icons8.com/color/48/bts-logo.png" href="index.html" alt="bts-logo" />
         </footer>
 
     </div>
